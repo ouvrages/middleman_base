@@ -56,6 +56,9 @@ set :images_dir, 'assets/images'
 set :js_assets_paths, ['assets/javascripts']
 set :css_assets_paths, ['assets/stylesheets']
 
+ignore '*.kate-swp'
+activate :livereload, :grace_period => 0.5
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
