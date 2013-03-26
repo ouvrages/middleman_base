@@ -81,3 +81,13 @@ configure :build do
   # Or use a different image path
   # set :http_path, "/Content/images/"
 end
+
+activate :deploy do |deploy|
+  app = File.basename(File.dirname(__FILE__))
+  user = app
+  
+  deploy.method = :rsync
+  deploy.user = user
+  deploy.host = "static.ouvrages"
+  deploy.path = "/home/#{user}/#{app}"
+end
