@@ -51,7 +51,7 @@ set :css_dir, 'assets/stylesheets'
 
 set :js_dir, 'assets/javascripts'
 
-set :images_dir, 'images'
+set :images_dir, 'assets/images'
 
 set :js_assets_paths, ['assets/javascripts']
 set :css_assets_paths, ['assets/stylesheets']
