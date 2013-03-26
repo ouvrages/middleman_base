@@ -53,6 +53,9 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
+set :js_assets_paths, ['assets/javascripts']
+set :css_assets_paths, ['assets/stylesheets']
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
