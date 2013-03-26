@@ -1,3 +1,14 @@
+GIT
+  remote: git://github.com/ouvrages/middleman-livereload.git
+  revision: 754012fa195a314bb46be6d749aab1e843659e6d
+  branch: ignore_ignored_files
+  specs:
+    middleman-livereload (3.0.1)
+      em-websocket (>= 0.2.0)
+      middleman-core (~> 3.0.2)
+      multi_json (~> 1.0)
+      rack-livereload
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -54,11 +65,6 @@ GEM
     middleman-deploy (0.0.11)
       middleman-core (>= 3.0.0)
       ptools
-    middleman-livereload (3.0.1)
-      em-websocket (>= 0.2.0)
-      middleman-core (~> 3.0.2)
-      multi_json (~> 1.0)
-      rack-livereload
     middleman-minify-html (3.0.0)
       htmlcompressor
       middleman-core (~> 3.0.0)
@@ -130,6 +136,6 @@ PLATFORMS
 DEPENDENCIES
   middleman
   middleman-deploy
-  middleman-livereload
+  middleman-livereload!
   middleman-minify-html
   rb-inotify (~> 0.9)
