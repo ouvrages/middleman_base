@@ -95,6 +95,6 @@ activate :deploy do |deploy|
   
   deploy.method = :rsync
   deploy.user = user
-  deploy.host = "agree19.ouvrages"
+  deploy.host = "changeme.example"
   deploy.path = "/home/#{user}/#{app}"
 end
