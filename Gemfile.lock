@@ -1,7 +1,6 @@
 GIT
-  remote: git://github.com/ouvrages/middleman-livereload.git
-  revision: 754012fa195a314bb46be6d749aab1e843659e6d
-  branch: ignore_ignored_files
+  remote: git://github.com/middleman/middleman-livereload.git
+  revision: 2a86d2fb52908be607f409105c3aa4c5ff7f8a09
   specs:
     middleman-livereload (3.0.1)
       em-websocket (>= 0.2.0)
