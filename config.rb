@@ -54,9 +54,11 @@ set :js_dir, 'assets/javascripts'
 set :images_dir, 'assets/images'
 
 set :js_assets_paths, ['assets/javascripts']
-set :css_assets_paths, ['assets/stylesheets']
+set :css_assets_paths, ['assets/stylesheets', '../assets/stylesheets']
 
 ignore '*.kate-swp'
+ignore '*.haml*.new'
+ignore '*.sass*.new'
 activate :livereload, :grace_period => 0.5
 
 # Build-specific configuration
